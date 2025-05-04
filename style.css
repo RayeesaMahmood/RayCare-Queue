@@ -99,7 +99,7 @@
             font-weight: bold;
         }
 
-        #close-chat:hover {
+        #close-chat: hover {
             color: darkred;
         }
         #emergency-form {
