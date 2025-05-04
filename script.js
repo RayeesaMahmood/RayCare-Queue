@@ -105,5 +105,9 @@
       .then(() => console.log('Service Worker registered'))
       .catch(error => console.error('Service Worker error:', error));
   }
+  document.getElementById("emergency-btn").addEventListener("click", function () {
+  document.getElementById("emergency-form").style.display = "block";
+});
+
   
  
